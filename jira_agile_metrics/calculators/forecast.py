@@ -13,6 +13,11 @@ from .burnup import BurnupCalculator
 
 logger = logging.getLogger(__name__)
 
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
 
 class BurnupForecastCalculator(Calculator):
     """Draw a burn-up chart with a forecast run to completion"""
@@ -421,3 +426,9 @@ def burnup_monte_carlo(
         )
 
     return pd.DataFrame(series)
+
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
+print("test local jira-agile-metrics copy")
