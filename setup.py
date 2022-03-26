@@ -13,7 +13,7 @@ with open(path.join(here, "requirements.txt")) as f:
     install_requires = f.readlines()
 
 setup(
-    name="jira-agile-metrics-IW",
+    name="jira-agile-metrics",
     version="0.25",
     description="Agile metrics and summary data extracted from JIRA",
     long_description=long_description,
@@ -34,7 +34,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "jira-agile-metrics=jira_agile_metrics-IW.cli:main",
+            "jira-agile-metrics=jira_agile_metrics.cli:main",
         ],
     },
 )
