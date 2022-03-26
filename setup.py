@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Martin Aspeli",
     author_email="optilude@gmail.com",
-    url="https://github.com/optilude/jira-agile-metrics-IW",
+    url="https://github.com/optilude/jira-agile-metrics",
     license="MIT",
     keywords="agile jira analytics metrics",
     packages=find_packages(exclude=["contrib", "docs", "tests*"]),
@@ -29,8 +29,8 @@ setup(
     tests_require=["pytest", "mock", "pytest-mock"],
     include_package_data=True,
     package_data={
-        "jira_agile_metrics-IW.webapp": ["templates/*.*", "static/*.*"],
-        "jira_agile_metrics-IW.calculators": ["*.html"],
+        "jira_agile_metrics.webapp": ["templates/*.*", "static/*.*"],
+        "jira_agile_metrics.calculators": ["*.html"],
     },
     entry_points={
         "console_scripts": [
