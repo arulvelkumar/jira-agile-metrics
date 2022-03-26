@@ -12,7 +12,7 @@ with open(path.join(here, "requirements.txt")) as f:
     install_requires = f.readlines()
 
 setup(
-    name="jira-agile-metrics",
+    name="jira-agile-metrics-IW",
     version="0.25",
     description="Agile metrics and summary data extracted from JIRA",
     long_description=long_description,
@@ -28,12 +28,12 @@ setup(
     tests_require=["pytest", "mock", "pytest-mock"],
     include_package_data=True,
     package_data={
-        "jira_agile_metrics.webapp": ["templates/*.*", "static/*.*"],
-        "jira_agile_metrics.calculators": ["*.html"],
+        "jira_agile_metrics-IW.webapp": ["templates/*.*", "static/*.*"],
+        "jira_agile_metrics-IW.calculators": ["*.html"],
     },
     entry_points={
         "console_scripts": [
-            "jira-agile-metrics=jira_agile_metrics.cli:main",
+            "jira-agile-metrics=jira_agile_metrics-IW.cli:main",
         ],
     },
 )
