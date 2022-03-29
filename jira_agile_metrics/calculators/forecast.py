@@ -408,6 +408,8 @@ def burnup_monte_carlo(
     for t in range(trials):
         current_date = start_date
         current_value = start_value
+        print(current_date)
+        print(current_value)
 
         dates = [current_date]
         steps = [current_value]
@@ -426,9 +428,3 @@ def burnup_monte_carlo(
         )
 
     return pd.DataFrame(series)
-
-print("test local jira-agile-metrics copy")
-print("test local jira-agile-metrics copy")
-print("test local jira-agile-metrics copy")
-print("test local jira-agile-metrics copy")
-print("test local jira-agile-metrics copy")
